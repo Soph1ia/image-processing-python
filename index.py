@@ -5,7 +5,7 @@ import statistics
 import logging
 
 
-def lambda_handler(event, context):
+def handler(event, context):
     benchmark()
     return {
         'statusCode': 200,
